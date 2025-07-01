@@ -1,10 +1,11 @@
-const Button = () =>{
-    return(<div>
-         <div className="d-flex justify-content-center m-3">
+const Button = () => {
+  return (
+    <div>
+      <div className="d-flex justify-content-center m-3">
         <button
           onClick={() => {
             const link = document.createElement("a");
-            link.href = "/sarvan3.pdf";
+            link.href = "https://sunny-longma-1c6c6f.netlify.app/sarvan3.pdf";
             link.download = "Saravanan_Vimal_CV.pdf";
             link.click();
           }}
@@ -18,6 +19,7 @@ const Button = () =>{
           Download CV{" "}
         </button>
       </div>
-    </div>)
-}
-export default Button
+    </div>
+  );
+};
+export default Button;
