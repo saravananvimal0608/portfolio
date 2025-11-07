@@ -8,13 +8,9 @@ const Home = () => {
       {/* Profile Section */}
       <div className="d-flex justify-content-around align-items-center mb-4 flex-wrap">
         <div className="content text-center">
-          <h1 className="fw-bold" style={{ color: "white" }}>
-            Saravanan
-          </h1>
-          <h1 className="fw-bold" style={{ color: "white" }}>
-            Vimal
-          </h1>
-          <h6 style={{ color: "white" }}>Java Full Stack Developer</h6>
+          <h3 className="fw-bold text-white title">
+            I AM A <span></span>
+          </h3>
         </div>
         <div>
           <img
@@ -28,122 +24,56 @@ const Home = () => {
 
       {/* Skillset Cards 1*/}
       <div className="d-flex justify-content-around flex-wrap gap-3 mb-5">
-        <div
-       style={{
-        width: "335px",
-        height: "246px",
-        border: "2px solid blue",
-        backgroundColor: "#2e1b68",
-        color: "white",
-        padding: "15px",
-        borderRadius: "10px",
-        transition: "transform 0.3s ease-in-out",
-        cursor: "pointer",
-      }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.transform = "scale(1.1)";
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.transform = "scale(1)";
-      }}
-    >
-          <h3
-            className="fw-bold mb-2 fs-5 text-center"
-            style={{ backgroundColor: "#2e1b68" }}
-          >
-            Deeper Skillset
+        <div className="skill-set-box col-12 col-md-5 col-xl-3">
+          <h3 className="fw-bold mb-2 fs-5 text-center">
+            MERN Stack Intern
           </h3>
-          <p
-            className="mb-0 fs-6 lh-base px-1"
-            style={{ backgroundColor: "#2e1b68" }}
-          >
-            Strong in front-end development using HTML, CSS, JavaScript,
-            Bootstrap, and React. Hands-on experience in building full-stack
-            applications using Java, PostgreSQL, and Spring Boot. Quick learner,
-            always eager to explore new technologies and improve problem-solving
-            skills.
+          <p className="mb-0 fs-6 lh-base px-1">
+            <ul>
+              <li>Developing and maintaining <b>"Bestrunner"</b>, a static website with <b>responsive UI</b></li>
+              <li>Contributing to <b>"Africa Duty Free"</b> website (responsive layouts, product management modules, and performance optimization)</li>
+              <li>Implementing features with <b>HTML5, CSS3, JavaScript (ES6+), React.js, Bootstrap,</b> and <b>REST APIs</b></li>
+              <li>Gaining backend experience in <b>API development, authentication,</b> and <b>database management</b> using <b>Node.js, Express.js,</b> and <b>MongoDB</b></li>
+            </ul>
           </p>
         </div>
 
         {/* Skillset Cards 2 */}
-         <div
-       style={{
-        width: "335px",
-        height: "246px",
-        border: "2px solid blue",
-        backgroundColor: "#2e1b68",
-        color: "white",
-        padding: "15px",
-        borderRadius: "10px",
-        transition: "transform 0.3s ease-in-out",
-        cursor: "pointer",
-      }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.transform = "scale(1.1)";
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.transform = "scale(1)";
-      }}
-    >
-          <h3
-            className="fw-bold mb-2 fs-5 text-center"
-            style={{ backgroundColor: "#2e1b68" }}
-          >
-            Deeper Skillset
+        <div className="skill-set-box col-12 col-md-5 col-xl-3">
+          <h3 className="fw-bold mb-2 fs-5 text-center">
+            Java Full Stack Development
           </h3>
-          <p
-            className="mb-0 fs-6 lh-base px-1"
-            style={{ backgroundColor: "#2e1b68" }}
-          >
-            Strong in front-end development using HTML, CSS, JavaScript,
-            Bootstrap, and React. Hands-on experience in building full-stack
-            applications using Java, PostgreSQL, and Spring Boot. Quick learner,
-            always eager to explore new technologies and improve problem-solving
-            skills.
+          <p className="mb-0 fs-6 lh-base px-1">
+            <ul>
+              <li>Completed Java Full Stack course at <b>Intellisense Academy</b></li>
+              <li>Hands-on practical experience in developing full stack web applications</li>
+              <li>Skilled in <b>Java, Spring Boot, PostgreSQL</b> for backend development</li>
+              <li>Proficient in <b>HTML, CSS, JavaScript, Bootstrap</b> for front-end design</li>
+              <li>Familiar with RESTful APIs and basic deployment workflow</li>
+            </ul>
           </p>
         </div>
 
+
         {/* Skillset Cards 3*/}
-          <div
-       style={{
-        width: "335px",
-        height: "246px",
-        border: "2px solid blue",
-        backgroundColor: "#2e1b68",
-        color: "white",
-        padding: "15px",
-        borderRadius: "10px",
-        transition: "transform 0.3s ease-in-out",
-        cursor: "pointer",
-      }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.transform = "scale(1.1)";
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.transform = "scale(1)";
-      }}
-    >
-          <h3
-            className="fw-bold mb-2 fs-5 text-center"
-            style={{ backgroundColor: "#2e1b68" }}
-          >
-            Deeper Skillset
+        <div className="skill-set-box col-12 col-md-5 col-xl-3">
+          <h3 className="fw-bold mb-2 fs-5 text-center">
+            Java Training
           </h3>
-          <p
-            className="mb-0 fs-6 lh-base px-1"
-            style={{ backgroundColor: "#2e1b68" }}
-          >
-            Strong in front-end development using HTML, CSS, JavaScript,
-            Bootstrap, and React. Hands-on experience in building full-stack
-            applications using Java, PostgreSQL, and Spring Boot. Quick learner,
-            always eager to explore new technologies and improve problem-solving
-            skills.
+          <p className="mb-0 fs-6 lh-base px-1">
+            <ul>
+              <li>Successfully completed <b>Java Training</b> at <b>Besant Technologies</b></li>
+              <li>Gained strong knowledge in <b>Core Java</b> concepts</li>
+              <li>Enhanced understanding of <b>Object-Oriented Programming (OOP)</b> principles</li>
+              <li>Worked on hands-on exercises involving <b>loops, arrays, collections,</b> and <b>exception handling</b></li>
+              <li>Developed mini-projects to apply real-world <b>Java application development</b> skills</li>
+            </ul>
           </p>
         </div>
       </div>
-       
-           <About/>
-         </div>
+
+      <About />
+    </div>
   );
 };
 

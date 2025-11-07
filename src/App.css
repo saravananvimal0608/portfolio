@@ -1,12 +1,48 @@
-*{
+.bg-color-main {
     background-color: #15093e;
 }
-.ul,li{
+
+
+.skill-set-box {
+    border: 2px solid blue;
+    background-color: #2e1b68;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.skill-set-box:hover {
+    transform: scale(1.1);
+}
+
+.bg-color-primary {
     background-color: #2e1b68;
 }
-.text{
-  color: white;
+
+.title span::after {
+    content: "MERN STACK DEVELOPER";
+    animation: words 6s infinite;
 }
-.cc{
-    background-color: #2e1b68;
+
+@keyframes words {
+
+    0%,
+    33% {
+        content: 'MERN STACK DEVELOPER';
+        color: #F5B027;
+    }
+
+    34%,
+    66% {
+        content: "REACT-JS DEVELOPER";
+        color: #EF9F92;
+    }
+
+    67%,
+    100% {
+        content: "EXPRESS-JS DEVELOPER";
+        color: #8A2BE2;
+    }
 }

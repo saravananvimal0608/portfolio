@@ -5,8 +5,9 @@ const Button = () => {
         <button
           onClick={() => {
             const link = document.createElement("a");
-            link.href = "https://sunny-longma-1c6c6f.netlify.app/sarvan3.pdf";
-            link.download = "Saravanan_Vimal_CV.pdf";
+            link.href = "SARAVANAN-RESUME.pdf";
+            link.download = "SARAVANAN-RESUME.pdf";
+            link.target = '_self'
             link.click();
           }}
           style={{
@@ -15,8 +16,9 @@ const Button = () => {
             border: "2px solid blue",
             color: "white",
           }}
+          type="button"
         >
-          Download CV{" "}
+          Download CV
         </button>
       </div>
     </div>

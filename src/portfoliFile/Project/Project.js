@@ -1,34 +1,73 @@
-import Youtube from "./youtubue.png";
-import Food from "./food.jpg";
-import Evoting from "./Voting.jpg";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import Nav from "../Navfile/Nav";
 import About from "../Components/AboutUs";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
-    <div className="text-center" >
+    <div className="text-center">
       <Nav />
-      <div className="cc w-50 mx-auto mb-4" style={{ border: "2px solid blue"}}>
-        <img src={Youtube} alt="youtube img" className="cc w-50 "></img>
-        <h3 className="cc text">Project 1</h3>
-        <h5 className="cc text">Youtube Clone</h5>
+
+      <div className="d-flex flex-column justify-content-center align-items-center gap-5">
+
+
+
+        <Link className="text-decoration-none col-10 col-md-6 " to="https://real-estate-website-lemon-two.vercel.app/">
+          <div className="skill-set-box">
+            <DotLottieReact
+              src="https://lottie.host/a3898ff0-7982-4341-ba39-0d784b7ee729/pQA48mn3rD.lottie"
+              loop
+              autoplay
+              style={{ width: 250, height: 250, margin: "0 auto" }}
+            />
+            <h3 className="text">Project 1</h3>
+            <h5 className="text">Real-Estate Website</h5>
+          </div>
+        </Link>
+
+        <Link className="text-decoration-none col-10 col-md-6 " to="https://ecommerce-front-end-ten-sigma.vercel.app/login">
+          <div className="skill-set-box">
+            <DotLottieReact
+              src="https://lottie.host/0092b39a-e9cd-4bbb-bc24-6c44d878272e/VsxdpwnvJs.lottie"
+              loop
+              autoplay
+              style={{ width: 250, height: 250, margin: "0 auto" }}
+            />
+            <h3 className="text">Project 2</h3>
+            <h5 className="text">E-Commerce Website</h5>
+          </div>
+        </Link>
+
+        <Link className="text-decoration-none col-10 col-md-6 ">
+          <div className="skill-set-box">
+            <DotLottieReact
+              src="https://lottie.host/b5e12307-f08b-4e04-94fe-04cc63539629/mZerJnfZ5X.lottie"
+              loop
+              autoplay
+              style={{ width: 250, height: 250, margin: "0 auto" }}
+            />
+            <h3 className="text">Project 3</h3>
+            <h5 className="text">YouTube Clone</h5>
+          </div>
+        </Link>
+
+        <Link className="text-decoration-none col-10 col-md-6 ">
+          <div className="skill-set-box">
+            <DotLottieReact
+              src="https://lottie.host/f0bd4602-7af3-49a4-85f3-ea6bd4cb7eb9/3sbcxCBFPc.lottie"
+              loop
+              autoplay
+              style={{ width: 250, height: 250, margin: "0 auto" }}
+            />
+            <h3 className="text">Project 4</h3>
+            <h5 className="text">Portfolio</h5>
+          </div>
+        </Link>
       </div>
 
-      <div className="cc w-50 mx-auto mb-4" style={{ border: "2px solid blue" }}>
-        <img src={Food} alt="img" className="cc w-50 pt-5"></img>
-        <h3 className="cc text">Project 2</h3>
-        <h5 className="cc text">Restaraunt Website</h5>
-      </div>
-
-      <div className="cc w-50 mx-auto mb-4" style={{ border: "2px solid blue" }}>
-        <img src={Evoting} alt="img" className="cc w-50 pt-5"></img>
-        <h3 className="cc text">Project 3</h3>
-        <h5 className="cc text">E Voting System</h5>
-      </div>
-
-      <About/>
-
+      <About />
     </div>
   );
 };
+
 export default Project;

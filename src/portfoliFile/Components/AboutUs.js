@@ -2,17 +2,16 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <div id="about">
+    <div id="about" className="pb-5">
       <div id="abouts" className="text-center px-3 py-4">
         <h4 className="text-white">About us</h4>
-        <div className="mx-auto" style={{ maxWidth: "500px" }}>
-          <p className="text-white text-center">
-            Completed Java Full Stack course with practical experience in Java,
-            Spring Boot, HTML, CSS, JavaScript, React, and MySQL. <br />
-            Strong foundation in object-oriented programming and web
-            development. <br />
-            Passionate about learning new technologies and building efficient
-            applications.
+        <div className="mx-auto" style={{ maxWidth: "600px" }}>
+          <p className="text-white fs-6 lh-base">
+            Worked as a <b>MERN Stack Intern</b> with hands-on experience in
+            <b> MongoDB, Express.js, React.js,</b> and <b>Node.js</b>.<br />
+            Developing and maintaining full stack projects with <b>responsive UI</b> and
+            optimized performance.<br />
+            Gaining backend experience in <b>API development, authentication,</b> and <b>database management</b> while building scalable web applications.
           </p>
         </div>
       </div>
@@ -20,45 +19,42 @@ const About = () => {
       {/*details*/}
       <div className=" d-flex justify-content-center flex-wrap gap-4">
         <div
-          className="cc text-white"
-          style={{ border: "2px solid blue"}}
-        >
-          <p className="cc" style={{ paddingLeft: "20px" }}>
-            <strong className="cc">Name :</strong>
+          className=" text-white skill-set-box"        >
+          <p className="px-4">
+            <strong className="">Name : </strong>
             Saravanan
           </p>
-          <p className="cc" style={{  paddingLeft: "20px" }}>
-            <strong className="cc">Email :</strong>
-            saravananvimal0608@gmail.com
+          <p className="px-4">
+            <strong className="">Email : </strong>
+            <a href="mailto:saravananvimal0608@gmail.com" className="text-white text-decoration-none">saravananvimal0608@gmail.com</a>
           </p>
-          <p className="cc" style={{  paddingLeft: "20px" }}>
-            <strong className="cc">Mobile No :</strong>
-            8838144554
+          <p className="px-4">
+            <strong className="">Mobile : </strong>
+            <a href="tel:8838144554" className="text-white text-decoration-none">8838144554</a>
+          </p>
+          <p className="px-4">
+            <strong className="">Resume : </strong>
+            <a href="/SARAVANAN-VIMAL-RESUME.pdf" className="text-white text-decoration-none">SARAVANAN-VIMAL-RESUME</a>
           </p>
         </div>
 
         <div
-          className="cc text-white"
-          style={{ border: "2px solid blue" }}
-        >
-          <p className="cc" style={{ paddingLeft: "20px" }}>
-            <strong className="cc">Address :</strong>
+          className=" text-white skill-set-box"        >
+          <p className="px-4" >
+            <strong className="">Address : </strong>
             Zamin Pallavaram Chennai-43
           </p>
-          <p className="cc" style={{ paddingLeft: "20px" }}>
-            <strong className="cc">Degree :</strong>
+          <p className="px-4" >
+            <strong className="">Degree : </strong>
             Bachelor Of Computer Application
           </p>
-          <p className="cc" style={{ paddingLeft: "20px" }}>
-            <strong className="cc">
-              Certification :
-            </strong>{" "}
-            Java Full Stack
+          <p className="px-4" >
+            <strong className="">
+              Certifications : </strong>
+            Mern Stack Intern, Java Full Stack, Java Training
           </p>
         </div>
       </div>
-
-      <Button/>
     </div>
   );
 };
