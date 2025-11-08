@@ -1,6 +1,7 @@
 import ProfileImg from "./ProfileImg.jpeg";
 import About from "../Components/AboutUs";
 
+
 const Home = () => {
 
   return (
@@ -12,6 +13,7 @@ const Home = () => {
             I AM A <span></span>
           </h3>
         </div>
+
         <div>
           <img
             src={ProfileImg}
