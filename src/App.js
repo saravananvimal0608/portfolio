@@ -1,20 +1,20 @@
 import './App.css';
-import {BrowserRouter, Route, Routes } from 'react-router-dom';
-import Nav from './portfoliFile/Navfile/Nav'
-import Home from './portfoliFile/Home/Home'
-import Project from './portfoliFile/Project/Project'
-import About from '../src/portfoliFile/Components/AboutUs'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Nav from './portfolioFile/Components/Nav'
+import Home from './portfolioFile/Components/Home'
+import Project from './portfolioFile/Components/Project'
+import About from './portfolioFile/Components/AboutUs'
 
 
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<><Nav/><Home/></>}/>
-      <Route path='/project' element={<Project/>}/>
-      <Route path='/about' element={<About/>}/>
+      <Routes>
+        <Route path='/' element={<><Nav /><Home /></>} />
+        <Route path='/project' element={<Project />} />
+        <Route path='/about' element={<About />} />
 
-    </Routes>
+      </Routes>
     </BrowserRouter>
   );
 }

@@ -1,17 +1,15 @@
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-import Nav from "../Navfile/Nav";
-import About from "../Components/AboutUs";
+import Nav from "./Nav";
+import About from "./AboutUs";
 import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
     <div className="text-center">
+
       <Nav />
 
       <div className="d-flex flex-column justify-content-center align-items-center gap-5">
-
-
-
         <Link className="text-decoration-none col-10 col-md-6 " to="https://real-estate-website-lemon-two.vercel.app/">
           <div className="skill-set-box">
             <DotLottieReact
@@ -25,7 +23,7 @@ const Project = () => {
           </div>
         </Link>
 
-        <Link className="text-decoration-none col-10 col-md-6 " to="https://ecommerce-front-end-ten-sigma.vercel.app/login">
+        <Link className="text-decoration-none col-10 col-md-6 ">
           <div className="skill-set-box">
             <DotLottieReact
               src="https://lottie.host/0092b39a-e9cd-4bbb-bc24-6c44d878272e/VsxdpwnvJs.lottie"
@@ -51,7 +49,7 @@ const Project = () => {
           </div>
         </Link>
 
-        <Link className="text-decoration-none col-10 col-md-6 ">
+        <Link className="text-decoration-none col-10 col-md-6">
           <div className="skill-set-box">
             <DotLottieReact
               src="https://lottie.host/f0bd4602-7af3-49a4-85f3-ea6bd4cb7eb9/3sbcxCBFPc.lottie"
@@ -66,6 +64,7 @@ const Project = () => {
       </div>
 
       <About />
+
     </div>
   );
 };

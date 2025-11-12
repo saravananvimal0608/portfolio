@@ -2,12 +2,13 @@
 const About = () => {
   return (
     <div id="about" className="pb-5">
-      <div id="abouts" className="text-center px-3 py-4">
+
+      <div className="text-center px-3 py-4">
         <h4 className="text-white">About us</h4>
-        <div className="mx-auto" style={{ maxWidth: "600px" }}>
-          <p className="text-white fs-6 lh-base">
+        <div >
+          <p className="text-white ">
             Worked as a <b>MERN Stack Intern</b> with hands-on experience in
-            <b> MongoDB, Express.js, React.js,</b> and <b>Node.js</b>.<br />
+            <b> React.js, Node.js, Express.js,</b> and <b>MongoDB</b>.<br />
             Developing and maintaining full stack projects with <b>responsive UI</b> and
             optimized performance.<br />
             Gaining backend experience in <b>API development, authentication,</b> and <b>database management</b> while building scalable web applications.
@@ -15,10 +16,10 @@ const About = () => {
         </div>
       </div>
 
-      {/*details*/}
       <div className=" d-flex justify-content-center flex-wrap gap-4">
+
         <div
-          className=" text-white skill-set-box"        >
+          className=" text-white skill-set-box col-12 col-md-7 col-xl-4">
           <p className="px-4">
             <strong className="">Name : </strong>
             Saravanan
@@ -38,7 +39,7 @@ const About = () => {
         </div>
 
         <div
-          className=" text-white skill-set-box"        >
+          className=" text-white skill-set-box col-12 col-md-7 col-xl-5">
           <p className="px-4" >
             <strong className="">Address : </strong>
             Zamin Pallavaram Chennai-43
@@ -53,6 +54,7 @@ const About = () => {
             Mern Stack Intern, Java Full Stack, Java Training
           </p>
         </div>
+        
       </div>
     </div>
   );

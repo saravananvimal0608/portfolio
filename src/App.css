@@ -2,7 +2,6 @@
     background-color: #15093e;
 }
 
-
 .skill-set-box {
     border: 2px solid blue;
     background-color: #2e1b68;
@@ -47,3 +46,39 @@
     }
 }
 
+.three-icon {
+    display: none;
+}
+
+.display-none {
+    display: flex;
+    gap: 71px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 426px) {
+    .three-icon {
+        display: block !important;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .non-hide-sm {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 30px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 999;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+}
