@@ -19,7 +19,7 @@ function BasicExample() {
           Projects
         </Link>
 
-        <a href="#about" className={`text-white text-decoration-none fw-semibold `} onClick={() => setToggle(false)}>
+        <a href="#contact" className={`text-white text-decoration-none fw-semibold `} onClick={() => setToggle(false)}>
           Contact
         </a>
 

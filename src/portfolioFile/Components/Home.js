@@ -18,9 +18,8 @@ const Home = () => {
           <img
             src={ProfileImg}
             alt="Profile"
-            className="rounded-5 h-50"
-            height="270"
-            width="288" />
+            className="rounded-5 h-50 profile-img"
+          />
         </div>
       </div>
 
@@ -30,14 +29,14 @@ const Home = () => {
           <h3 className="fw-bold mb-2 fs-5 text-center">
             MERN Stack Intern
           </h3>
-          <p className=" px-1">
+          <div className=" px-1">
             <ul>
               <li>Developing and maintaining <b>"Bestrunner"</b>, a static website with <b>responsive UI</b></li>
               <li>Contributing to <b>"Africa Duty Free"</b> website (responsive layouts, product management modules, and performance optimization)</li>
               <li>Implementing features with <b>HTML5, CSS3, JavaScript, React.js, Bootstrap,</b> and <b>REST APIs</b></li>
               <li>Gaining backend experience in <b>API development, authentication,</b> and <b>database management</b> using <b>Node.js, Express.js,</b> and <b>MongoDB</b></li>
             </ul>
-          </p>
+          </div>
         </div>
 
         {/* Skillset Cards 2 */}
@@ -45,7 +44,7 @@ const Home = () => {
           <h3 className="fw-bold mb-2 fs-5 text-center">
             Java Full Stack Development
           </h3>
-          <p className=" px-1">
+          <div className=" px-1">
             <ul>
               <li>Completed Java Full Stack course at <b>Intellisense Academy</b></li>
               <li>Hands-on practical experience in developing full stack web applications</li>
@@ -53,7 +52,7 @@ const Home = () => {
               <li>Proficient in <b>HTML, CSS, JavaScript, Bootstrap</b> for front-end design</li>
               <li>Familiar with RESTful APIs and basic deployment workflow</li>
             </ul>
-          </p>
+          </div>
         </div>
 
         {/* Skillset Cards 3*/}
@@ -61,7 +60,7 @@ const Home = () => {
           <h3 className="fw-bold mb-2 fs-5 text-center">
             Java Training
           </h3>
-          <p className=" px-1">
+          <div className=" px-1">
             <ul>
               <li>Successfully completed <b>Java Training</b> at <b>Besant Technologies</b></li>
               <li>Gained strong knowledge in <b>Core Java</b> concepts</li>
@@ -69,7 +68,7 @@ const Home = () => {
               <li>Worked on hands-on exercises involving <b>loops, arrays, collections,</b> and <b>exception handling</b></li>
               <li>Developed mini-projects to apply real-world <b>Java application development</b> skills</li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
 
