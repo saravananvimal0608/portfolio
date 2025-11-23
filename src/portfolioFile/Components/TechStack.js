@@ -1,5 +1,6 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
-import { SiJavascript, SiMongodb, SiExpress, SiBootstrap, BiPostman, SiVisualstudiocode } from "react-icons/si";
+import { SiJavascript, SiMongodb, SiExpress, SiBootstrap ,SiPostman} from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 
 const TechStack = () => {
   return (
@@ -32,8 +33,8 @@ const TechStack = () => {
           <h5 className="fw-bold mb-3">Tools</h5>
           <div className="d-flex flex-wrap justify-content-center gap-3">
             <FaGithub size={35} className="text-white" />
-            <BiPostman size={35} className="text-white" />
-            <SiVisualstudiocode size={35} className="text-white" />
+            <SiPostman size={35} className="text-white" />
+            <VscVscode size={35} className="text-white" />
           </div>
         </div>
 
