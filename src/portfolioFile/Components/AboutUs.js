@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div id="about" className="pb-5">
 
-      <div className="text-center px-3 py-4">
+      <div className="text-center px-3 py-4" id="contact">
         <h4 className="text-white fw-bold">About Me</h4>
         <p className="text-white mt-2 mx-auto" style={{ maxWidth: "700px" }}>
           I worked as a <b>MERN Stack Intern</b> with hands-on experience in
